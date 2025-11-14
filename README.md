@@ -43,7 +43,6 @@ El dataset contiene características relacionadas con:
 
 ------------
 
-
 - Edad del asegurado
 
 - Edad del vehículo
@@ -66,7 +65,6 @@ El dataset contiene características relacionadas con:
 1. Importación y exploración inicial
 
 Incluye:
-
 ------------
 - Visualización de primeras filas
 
@@ -77,13 +75,9 @@ Incluye:
 - Identificación de columnas numéricas
 
 - Estadísticas descriptivas
-
 ------------
-
 ## 2. Evaluación de calidad de datos
-
 ------------
-
 
 - Registros duplicados
 
@@ -126,17 +120,14 @@ El corazón del análisis responde 5 preguntas clave:
 ## ¿Existen patrones de fraude por MES del accidente?
 
 Se analizan:
-
 ------------
-
-
 -  Mes del accidente
 
 -  Mes del reclamo
 
 -  Distribución de fraude por mes
 
-- Hallazgos clave:
+## Hallazgos clave:
 
 - Meses con mayor fraude: enero, abril y mayo.
 
@@ -153,14 +144,11 @@ Se analizan:
 Se examinan:
 
 ------------
-
-
-
 - Día del accidente
 
 - Día de la reclamación
 
-- Hallazgos clave:
+## Hallazgos clave:
 
 - Martes y jueves muestran tasas de fraude anormalmente altas.
 
@@ -205,11 +193,11 @@ Se desarrolla un índice que combina:
 
 - Meses críticos
 
-- Resultados del IRT:
+## -Resultados del IRT:
 
 - Se identifican combinaciones específicas de fecha → reclamo con mayor probabilidad de fraude.
 
-- Mejora el recall del análisis con 47% de identificación de fraude (sin modelo ML).
+- Mejora el recall del análisis con 47% de identificación de fraude.
 
 # 🧠 PREGUNTA 5:
 ## ¿El tipo de vehículo influye en los patrones temporales?
