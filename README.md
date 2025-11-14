@@ -1,36 +1,3 @@
-📑 Índice
-
-⏱️ Análisis Temporal de Reclamos de Seguros
-
-🎯 Objetivo del Proyecto
-
-📝 Dataset Utilizado
-
-🔍 Metodología del Análisis
-
-1. Importación y exploración inicial
-
-2. Evaluación de calidad de datos
-
-3. Análisis de distribución
-
-4. Análisis de patrones temporales
-
-🧠 PREGUNTA 1: Mes del accidente
-
-🧠 PREGUNTA 2: Día de la semana
-
-🧠 PREGUNTA 3: Diferencia temporal
-
-🧠 PREGUNTA 4: Índice de Riesgo Temporal (IRT)
-
-🧠 PREGUNTA 5: Tipo de vehículo
-
-📊 Conclusiones Generales
-
-
-
-
 
 # ⏱️ Análisis Temporal de Reclamos de Seguros  
 
