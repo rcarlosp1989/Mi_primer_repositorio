@@ -18,9 +18,9 @@ El objetivo principal es entender el comportamiento temporal del fraude, usando 
 
 - Mes del accidente
 
-- Mes del reclamo
+- Mes de la reclamación
 
-- Diferencia temporal entre accidente → reclamo
+- Diferencia temporal entre accidente → reclamación
 
 - Patrones por tipo de vehículo
 
@@ -28,14 +28,14 @@ El objetivo principal es entender el comportamiento temporal del fraude, usando 
 
 ####  El análisis incluye:
 
-✔Exploración inicial
-✔ Calidad de datos
-✔ Outliers
-✔ Distribuciones
-✔ Patrones de fraude
-✔ 5 preguntas temporales clave
-✔ Construcción del Índice de Riesgo Temporal (IRT)
-✔ Reglas de negocio basadas en evidencia
+- Exploración inicial
+- Calidad de datos
+- Outliers
+- Distribuciones
+- Patrones de fraude
+- 5 preguntas temporales clave
+- Construcción del Índice de Riesgo Temporal (IRT)
+- Reglas de negocio basadas en evidencia
 
 ## 📝 Dataset Utilizado
 
@@ -53,7 +53,7 @@ El dataset contiene características relacionadas con:
 
 - Días entre póliza–accidente
 
-- Meses y días de accidente y reclamo
+- Meses y días de accidente y reclamación
 
 - Información del reporte policial
 
@@ -123,7 +123,7 @@ Se analizan:
 ------------
 -  Mes del accidente
 
--  Mes del reclamo
+-  Mes de reclamación
 
 -  Distribución de fraude por mes
 
@@ -163,8 +163,6 @@ Se examinan:
 # 🧠 PREGUNTA 3:
 ## ¿Cuál es la diferencia temporal entre accidente y reclamación?
 
-¿Cuál es la diferencia temporal entre accidente y reclamación?
-
 ## Se analiza:
 
 - Meses transcurridos entre accidente → reporte
@@ -178,6 +176,7 @@ Se examinan:
 - La ventana "mes siguiente" concentra el 25% del fraude, más del doble que el mismo mes del accidente.
 
 - Los reclamos inmediatos (mismo día) rara vez son fraudulentos.
+- 
 # 🧠 PREGUNTA 4:
 ## ¿Podemos construir un Índice de Riesgo Temporal (IRT)?
 
@@ -195,7 +194,7 @@ Se desarrolla un índice que combina:
 
 ## -Resultados del IRT:
 
-- Se identifican combinaciones específicas de fecha → reclamo con mayor probabilidad de fraude.
+- Se identifican combinaciones específicas de fecha → reclamación con mayor probabilidad de fraude.
 
 - Mejora el recall del análisis con 47% de identificación de fraude.
 
