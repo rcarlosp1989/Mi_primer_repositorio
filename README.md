@@ -27,7 +27,7 @@ El objetivo principal es entender el comportamiento temporal del fraude, usando 
 
 - Datos históricos presentes en la póliza
 
-####  El análisis incluye:
+##El análisis incluye:
 
 - Exploración inicial
 - Calidad de datos
@@ -65,7 +65,7 @@ El dataset contiene características relacionadas con:
 
 1. Importación y exploración inicial
 
-Incluye:
+##Incluye:
 ------------
 - Visualización de primeras filas
 
@@ -120,7 +120,7 @@ El corazón del análisis responde 5 preguntas clave:
 # 🧠 PREGUNTA 1:
 ## ¿Existen patrones de fraude por MES del accidente?
 
-Se analizan:
+##Se analizan:
 ------------
 -  Mes del accidente
 
@@ -142,7 +142,7 @@ Se analizan:
 
 ## ¿Existen patrones por DÍA DE LA SEMANA?
 
-Se examinan:
+##Se examinan:
 
 ------------
 - Día del accidente
@@ -202,7 +202,7 @@ Se desarrolla un índice que combina:
 # 🧠 PREGUNTA 5:
 ## ¿El tipo de vehículo influye en los patrones temporales?
 
-Hallazgos:
+##Hallazgos:
 
 - Los vehículos tipo Sport presentan mayor tasa de fraude temporal.
 
